@@ -32,3 +32,5 @@
   - Online resource: https://stackoverflow.com/questions/56980052/how-to-configure-ssh-keys-on-windows-for-sourcetree-terminal-and-ides-such-as-i
 
 ## 5. DONE
+
+  - For a good video tutorial on using Git for Unity with Sourcetree, watch this: https://www.youtube.com/watch?v=DgFWpSKyT7I&t=165s
