@@ -1,15 +1,16 @@
 # How To Setup Sourcetree
 
-1. Download and install Sourcetree from https://www.sourcetreeapp.com/
+## 1. Download and install Sourcetree from https://www.sourcetreeapp.com/
 
-2. To get Sourcetree to connect with GitHub using SSH, first you must generate a SSH Key (see instructions below for how to do this on Windows PC)
+## 2. To get Sourcetree to connect with GitHub using SSH, first you must generate a SSH Key (see instructions below for how to do this on Windows PC)
 
   - Open Command Prompt
   - Generate SSH Key by typing 'ssh-keygen' and press Enter. This will generate 2 files representing your rsa key pair: one public and one private with file extension of .ssh. 
   - Next you'll be prompted to enter a paraphrase (password)
   - After this, you can confirm that the key generation is successful by browsing to your user folder. You should see a '/.ssh' folder containing 2 files typically named 'id_rsa'
+  - Online resource: https://www.howtogeek.com/762863/how-to-generate-ssh-keys-in-windows-10-and-windows-11/
 
-3. Add SSH key to GitHub
+## 3. Add SSH key to GitHub
 
   - Assuming you already have an account setup with GitHub, log into GitHub and go to Settings under your profile
   - Click on the 'SSH and GPG keys' under the Access heading the the left nav
@@ -19,12 +20,13 @@
   - Give your key a unique name in the 'Title' textbox
   - Press the 'Add SSH key' button
 
-4. Configure SSH key in Sourcetree
+## 4. Configure SSH key in Sourcetree
 
   - Open up the Sourcetree app that was previously installed in step 1
   - Go to Tools > Options to open the Options dialog box
   - Under 'SSH Client Configuration', specify the location of your 'id_rsa' file
   - In the 'SSH Client' drop-down, select OpenSSH
   - Click on the 'OK' button to save the new configuration
+  - Online resource: https://stackoverflow.com/questions/56980052/how-to-configure-ssh-keys-on-windows-for-sourcetree-terminal-and-ides-such-as-i
 
-5. DONE
+## 5. DONE
