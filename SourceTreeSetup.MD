@@ -1,6 +1,8 @@
 # How To Setup Sourcetree
 
-## 1. Download and install Sourcetree from https://www.sourcetreeapp.com/
+## 1. Download and install Sourcetree
+
+  - https://www.sourcetreeapp.com/
 
 ## 2. To get Sourcetree to connect with GitHub using SSH, first you must generate a SSH Key (see instructions below for how to do this on Windows PC)
 
