@@ -45,7 +45,7 @@ The following is based on the use of Sourcetree as a visual client to GitHub.
   - Ensure you select your GitHub account under 'Remote Account'
   - Click on 'OK' button
 
-## 7. Push change committed to local repository to remote repository
+## 7. Push changes committed to local repository to remote repository
 
   - Back in your local repo view, click on the 'Push' button
   - Check the box beside your 'master' local branch, and ensure that the 'master' remote branch is also selected
