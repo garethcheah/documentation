@@ -4,40 +4,52 @@ The following is based on the use of Sourcetree as a visual client to GitHub.
 
 ## 1. Create new Unity project through Unity Hub
 
-## 2. Ensure project settings are correct for version control
+## 2. Create new repository in Sourcetree
 
-  There are two important settings that your Unity project needs to have before you use it with git:
-  - Version Control Mode set to Visible Meta Files
-  - Asset Serialization Mode set to Force Text
+  - Open Sourcetree
+  - Select option to 'Create' new repository
+  - Under 'Destination Path', browse to your Unity project folder
+  - Ensure the name of the repo is to your liking
+  - Ensure repo type is 'Git'
+  - Leave 'Create Repository On Account' unchecked to just create the repo locally for now.
 
-  In modern versions of Unity, these settings are the default, but it is worth checking them if your project originated in an older version of Unity.
+## 3. Create .gitignore file for Unity project
 
-## 3. Initialize the project for Git
-
-  - Open Terminal window via Sourcetree
-  - Browse to your project folder
-  - Run 'git init' to add git conifiguration to your project
-
-## 4. Add a new repository
-
-  - In Sourcetree, select 'Add'
-  - Set 'Working Copy Path' to your project folder. After initialization in step 3, this should now be recognized as a Git repository
-  - Ensure the name of the project is to your liking
-  - Keep 'Local Folder' option as '[Root]'
-  - Click on 'Add' button.
-
-## 5. Add .gitignore file
-
-  - Create a new file with your text editor
+  - Within your local repo in Sourcetree, open 'Settings'
+  - Switch to advanced tab. Under 'Repository-specific ignore list', click on the 'Edit' button. This should open up a new .gitignore file in a text editor.
   - Paste in the contents of the gitignore template for Unity from:
     - [Local template](.gitignore)
     - [Unity template provided by GitHub](https://github.com/github/gitignore/blob/master/Unity.gitignore)
-  - Save it as '.gitignore' in the root of your project directory
+  - Save file
+  - Go back to Sourcetree and click 'OK' to close 'Repository Settings' window
 
-## 6. Commit project files to GitHub
+## 4. Create initial commit to local repository
 
-  - In SourceTree, you should now see your project workspace with a bunch of uncommitted changes. Select 'uncommitted changes'.
-  - Under 'Unstaged files', you should see files within your project folder (minus files that were excluded by .gitignore)
-  - Press the 'Stage All' button
-  - Press the 'Commit' button
-  - Now you are ready to perform your first commit into your new GitHub repository
+  - Within your local repo in Sourcetree, you should now see a bunch of unstaged files. Click on 'Stage All' button.
+  - Click on the 'Commit' button.
+  - Enter a description for the commit and click on the 'Commit' button
+  - You should now see your first commit in the 'master' branch
+
+## 5. Create remote respository in GitHub.com
+
+  - Go to github.com and sign into your account
+  - Create a new repository with the same matching the local repository for your project
+  - Copy the URL for the new repository
+
+## 6. Add path to remote repository in Sourcetree
+
+  - Go back to your local repo view in Sourcetree and click on 'Settings'
+  - Under the 'Remotes' tab, select the option to 'Add' a remote repository path
+  - For 'Remote name', check the box for 'Default remote'
+  - For 'URL / Path', paste the URL copied in step 5
+  - Ensure you select your GitHub account under 'Remote Account'
+  - Click on 'OK' button
+
+## 7. Push change committed to local repository to remote repository
+
+  - Back in your local repo view, click on the 'Push' button
+  - Check the box beside your 'master' local branch, and ensure that the 'master' remote branch is also selected
+  - Click on 'Push'
+  - If no errors appear, then your local commits should now be in your remote repository as well. You can also go to your repo at github.com to verify this.
+
+## 8. DONE
