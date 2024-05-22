@@ -33,8 +33,8 @@ The following is based on the use of Sourcetree as a visual client to GitHub.
 ## 5. Create remote respository in GitHub.com
 
   - Go to github.com and sign into your account
-  - Create a new repository with the same matching the local repository for your project
-  - Copy the URL for the new repository
+  - Create a new remote repository with the same name matching the local repository for your project
+  - After the remote repository is created, copy the URL for the new repository
 
 ## 6. Add path to remote repository in Sourcetree
 
@@ -50,6 +50,6 @@ The following is based on the use of Sourcetree as a visual client to GitHub.
   - Back in your local repo view, click on the 'Push' button
   - Check the box beside your 'master' local branch, and ensure that the 'master' remote branch is also selected
   - Click on 'Push'
-  - If no errors appear, then your local commits should now be in your remote repository as well. You can also go to your repo at github.com to verify this.
+  - If no errors appear, then your local commits should now be in your remote repository as well. You can also go to your repo at github.com to verify this. You should be able to see all your project files and commits.
 
 ## 8. DONE
