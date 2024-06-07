@@ -13,7 +13,7 @@ The following is based on the use of Sourcetree as a visual client to GitHub.
   - Ensure repo type is 'Git'
   - Leave 'Create Repository On Account' unchecked to just create the repo locally for now.
 
-## 3. Create .gitignore file for Unity project
+## 3. Create .gitignore file for Unity project (this step can also be done when creating a repo on GitHub.com)
 
   - Within your local repo in Sourcetree, open 'Settings'
   - Switch to advanced tab. Under 'Repository-specific ignore list', click on the 'Edit' button. This should open up a new .gitignore file in a text editor.
