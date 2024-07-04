@@ -29,6 +29,7 @@ The following is based on the use of Sourcetree as a visual client to GitHub.
   - Click on the 'Commit' button.
   - Enter a description for the commit and click on the 'Commit' button
   - You should now see your first commit in the 'master' branch
+  - [Optional] Rename branch to 'main'
 
 ## 5. Create remote respository in GitHub.com
 
